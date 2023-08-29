@@ -1,0 +1,16 @@
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+  align-items: flex-end;
+  border: 2px solid black;
+  flex-wrap: wrap;
+}
+.flexbox section {
+  border: 1px solid black;
+  padding: 50px;
+}
+.first {
+  flex-basis: 50%;
+}

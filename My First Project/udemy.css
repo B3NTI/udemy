@@ -1,0 +1,342 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+header {
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  /* background-color: red; */
+  border: 1px solid black;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.212) 5px 5px 5px;
+}
+.header-img {
+  width: 10vw;
+}
+
+.bot {
+  display: flex;
+  width: 80vw;
+  justify-content: space-around;
+  align-items: center;
+  /* position: absolute; */
+}
+.bot2 {
+  display: flex;
+  align-items: center;
+}
+header input {
+  width: 35vw;
+  height: 7vh;
+  padding-left: 30px;
+  border-radius: 30px;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid black;
+}
+.Search {
+  /* display: flex; */
+  position: absolute;
+  margin-left: 10px;
+  color: gray;
+}
+.div2 {
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+.cart {
+  font-size: 100px;
+}
+.btn-div {
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn1 {
+  width: 80px;
+  height: 45px;
+  background-color: transparent;
+  font-weight: bold;
+  border: 1px solid black;
+}
+.btn2 {
+  width: 80px;
+  height: 45px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+.btn3 {
+  background-color: transparent;
+  width: 40px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+.globe {
+  font-size: large;
+  border: 1px solid black;
+}
+.btn3:hover {
+  opacity: 0.8;
+}
+.btn1:hover,
+.btn3:hover {
+  background-color: whitesmoke;
+}
+.dropdown_content {
+  padding: 20px;
+  height: 80vh;
+  width: 200px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.212) 5px 5px 10px;
+  position: absolute;
+  display: none;
+  z-index: 1;
+}
+.div {
+  display: flex;
+  height: 11vh;
+  width: inherit;
+  align-items: center;
+}
+
+.category_dropdown:hover .dropdown_content {
+  display: flex;
+}
+.udp_content {
+  height: 33vh;
+  width: 50x;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: black;
+  position: absolute;
+  display: none;
+}
+.rap {
+  display: flex;
+  color: white;
+  background-color: black;
+  padding: 7px 50px;
+  /* box-shadow: rgba(0, 0, 0, 0.212) 5px 5px 10px; */
+}
+
+.Ud_dropdown:hover .udp_content {
+  display: flex;
+}
+.tch_content {
+  height: 10vh;
+  width: 40px;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: black;
+  position: absolute;
+  display: none;
+}
+.zoot {
+  display: flex;
+  height: 1%;
+  width: inherit;
+  align-items: center;
+}
+.Tch_dropdown:hover .tch_content {
+  display: flex;
+}
+.zap {
+  display: flex;
+  color: white;
+  background-color: black;
+  padding: 7px 50px;
+}
+aside {
+  display: flex;
+  top: 20vh;
+  left: 10vw;
+  align-content: center;
+  justify-content: space-around;
+  position: absolute;
+  padding: 20px;
+  width: 25vw;
+  color: black;
+  background-color: white;
+  flex-direction: column;
+  font-size: large;
+  font-weight: 100%;
+  font-family: Georgia, Arial, Helvetica, sans-serif;
+}
+
+aside h1 {
+  font-size: x-large;
+  font-family: "Trebuchet MS";
+  font-weight: bold;
+}
+
+main {
+  background-image: url(woman.jpg);
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+}
+.partners {
+  height: 40vh;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  margin-bottom: 50px;
+}
+.centeredpartner {
+  height: 20vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 1px solid black; */
+}
+.centeredpartner p {
+  font-size: 20px;
+  color: gray;
+  /* top: 5vh; */
+}
+.partnersicon {
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+  /* align-items: center; */
+}
+.sectionwthpadding {
+  padding: 0px 20px;
+}
+.courseswithsection h1 {
+  font-size: 35px;
+  color: rgba(36, 35, 35);
+}
+.courseswithsection p {
+  font-size: 20px;
+  margin: 20px 0px;
+  color: rgba(36, 35, 35);
+}
+.subjects {
+  display: flex;
+  width: 50vw;
+  justify-content: space-between;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 0px;
+  font-size: small;
+}
+.subjects a {
+  color: rgba(64, 62, 62) !important;
+}
+.subjects a:hover {
+  color: black !important;
+}
+
+.courses {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 100%;
+  border: 1px solid rgb(187, 181, 181);
+}
+.centeredcourses {
+  height: 80vh;
+  width: 95%;
+  /* border: 1px solid black; */
+}
+
+.centeredcourses p {
+  width: 60vw;
+  font-size: 18px;
+  font-weight: 500;
+}
+.centeredcourses h1 {
+  font-size: 25px;
+}
+
+.explore {
+  width: 150px;
+  font-size: 15px;
+  margin-bottom: 30px;
+  /* justify-content: center; */
+}
+
+.CourseCardsection {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.coursecard {
+  width: 19%;
+}
+.coursecard img {
+  width: 100%;
+}
+.coursecard img:hover {
+  opacity: 0.8;
+}
+figcaption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 17vh;
+}
+
+figcaption i {
+  color: goldenrod;
+}
+figcaption del {
+  color: gray;
+  font-size: 16px;
+  font-weight: lighter;
+}
+figcaption strong,
+small {
+  font-weight: bolder;
+}
+.flexbox {
+  display: flex;
+  /* margin: 20vh; */
+  justify-content: space-around;
+  flex-direction: column;
+  color: gray;
+  padding: 10px 3px;
+}
+.box {
+  display: flex;
+  margin: 5vh;
+  width: 20vw;
+  flex-direction: column;
+  padding: 3px;
+}
+.faq1 {
+  font-size: 20px;
+  margin-top: 5vh;
+  color: black;
+}
+/* .Sog{
+  background-image: url(My First Project/volkswagen.svg);
+
+} */

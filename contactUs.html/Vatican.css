@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0%;
+  background-color: beige;
+}
+.flexbox-section {
+  display: flex;
+  background-image: url("../My\ App/assets/images/vatican\ img/cityview.jpg");
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+
+  /* flex-direction: row;
+  justify-content: space-between; */
+  /* height: 100vh; */
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+}
+p {
+  text-align: center;
+  background-size: auto;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}

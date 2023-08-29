@@ -1,0 +1,52 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.mo {
+  background-color: black;
+  color: white;
+}
+
+/*menu base styles */
+
+.flex-container {
+  display: flex;
+  background: black;
+  flex-wrap: wrap;
+  /* flex-flow: row; */
+  /* height: 100px;
+            justify-content: flex-end; */
+  flex-direction: column;
+  /*flex style */
+}
+
+header {
+  display: flex;
+  height: 10vh;
+  border-bottom: 1px solid black;
+}
+
+main {
+  display: flex;
+  height: 90vh;
+}
+
+aside {
+  width: 20vw;
+  border: 1px solid black;
+}
+
+section {
+  width: 80vw;
+}
+/* nav ul{
+                display flex:
+                justify-content: flex-direction: right:end;;
+            }
+            nav li */
+
+.flex-section {
+  border: 1px solid white;
+  padding: 50px;
+}

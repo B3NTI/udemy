@@ -1,0 +1,88 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-around;
+}
+header {
+  display: flex;
+  background-color: white;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 10vh;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+}
+
+aside {
+  display: flex;
+  flex-direction: row;
+  align-items: row;
+  align-items: center;
+  height: 40vh;
+  background-color: rgba(16, 156, 211, 0.925);
+  box-shadow: rgba(0, 0, 0, 0.212) 5px 5px 5px;
+  width: 100%;
+}
+
+aside img {
+  height: 35vh;
+}
+.dr {
+  /* background-color: white; */
+  margin-right: 70px;
+  color: white;
+}
+.zip {
+  display: flex;
+  color: rgba(16, 156, 211, 0.925);
+  background-color: white;
+  border: 1px solid rgba(16, 156, 211, 0.925);
+  padding: 3px 20px;
+}
+
+.fat {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  height: 20vh;
+  justify-content: space-around;
+}
+
+.signs {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: rgba(16, 156, 211, 0.925);
+  align-items: center;
+  height: 15vh;
+  color: white;
+}
+.tooth {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  font-weight: bold;
+  font-size: large;
+  border-radius: 50%;
+  border: 1px solid white;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

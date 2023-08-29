@@ -1,0 +1,48 @@
+h2 {
+  text-align: center;
+  color: black !important;
+}
+#second,
+h1 {
+  text-align: center;
+  color: red;
+}
+
+* {
+  background-color: green;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+p {
+  line-height: 50px;
+  letter-spacing: 30px;
+  text-decoration: overline;
+  text-transform: uppercase;
+}
+li {
+  list-style-type: lower-roman;
+  line-height: 40px;
+}
+section {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../My App/assets/images/banti.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: center;
+  width: 100vw;
+  height: 50vh;
+  border: 1px solid black;
+  /*margin: 50px;*/
+  /* padding: 50px;*/
+  background-color: white;
+  /* border-radius: 50px; */
+}
